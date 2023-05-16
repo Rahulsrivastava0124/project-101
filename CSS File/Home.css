@@ -1,64 +1,106 @@
-
 /* SLIDDER CODE */
 
-.image-slidder{
+.image-slidder {
    position: relative;
    width: 95%;
    height: 550px;
    background-color: white;
-   border-radius: 5px;border: 3px solid white;
-   box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+   border-radius: 5px;
+   border: 3px solid white;
+   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
 }
-.image-slidder .slides-row{
+
+.image-slidder .slides-row {
    display: flex;
    height: 90%;
-   
+
 }
 
 /* Navbar */
-.Navbar{
+.Navbar {
    width: 100%;
-   margin: 4px 4px ;
+   margin: 4px 4px;
    background-color: rgb(201, 195, 195);
    border-radius: 10px;
    font-family: 'Poppins', sans-serif;
 }
 
-.List_with_logo{
+.List_with_logo {
    display: flex;
    align-items: center;
-   margin: 2px;
-   padding: 2px ;
+   justify-content: space-between;
+
 }
-.menu_ul{
-   display:flex;
+
+.menu_ul {
+   display: flex;
    list-style: none;
 }
 
 
-.menu_li{
+.menu_li {
    background-color: rgb(201, 195, 195);
    color: rgb(34, 34, 34);
    padding: 3px;
    margin: 2px;
 }
-.menu_li a{
+
+.menu_li a {
    text-decoration: none;
    color: black;
    padding: 10px;
 }
 
-.menu_li :hover{
+.menu_li :hover {
    background-color: rgb(218, 215, 215);
    color: rgb(34, 34, 34);
    border-radius: 5px;
    transition: all 0.5s ease-in-out;
 }
 
-.Nav_logo{
+.Nav_logo {
    padding-left: 5px;
 }
-.Nav_logo img{
+
+.Nav_logo img {
    width: 40px;
-   border-radius: 4px;
+   border-radius: 50%;
+}
+
+.Nav_color {
+   width: 20px;
+   height: 20px;
+   background-color: aqua;
+   border-radius: 50%;
+   border: none;
+   margin: 2px;
+}
+
+.Color_Changer {
+   background-color: blanchedalmond;
+   border-radius: 10px;
+   padding: 8px;
+   display: flex;
+   align-items: center;
+}
+
+.Nav_second_div {
+   display: flex;
+   align-items: center;
+   margin-right: 6px;
+}
+
+.menu_list {
+   display: flex;
+   align-items: center;
+}
+
+.input_search {
+   margin: 8px;
+}
+
+#search {
+   padding: 8px;
+   border: none;
+   border-radius: 5px;
 }
