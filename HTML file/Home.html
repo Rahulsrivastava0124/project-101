@@ -23,7 +23,7 @@
     <!-- start coding :) -->
 
     <!-- navbar code -->
-    <section class="Navbar">
+    <section class="Navbar" id="Default_color">
         <div class="main_div">
             <div class="List_with_logo">
                 <div class="menu_list">
@@ -52,13 +52,21 @@
                         <input type="search"
                             name="Nav_search"
                             id="search"
-                            
                             placeholder=" 🔍Search">
                     </div>
                     <div class="Color_Changer">
-                        <button class="color_White Nav_color"></button>
-                        <button class="color_Black Nav_color"></button>
-                        <button class="color_Gray Nav_color"></button>
+                        <button class="Nav_color"
+                            id="color_White"
+                            name="White" 
+                            onclick="Change_Nav_Color( this.id)"></button>
+                        <button class=" Nav_color"
+                            id="color_Black" 
+                            name="Black"
+                            onclick="Change_Nav_Color( this.id)"></button>
+                        <button class=" Nav_color"
+                            id="color_Gray"
+                            name="Gray"
+                            onclick="Change_Nav_Color( this.id)"></button>
                     </div>
                 </div>
             </div>

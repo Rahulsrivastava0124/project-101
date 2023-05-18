@@ -16,14 +16,18 @@
 
 }
 
-/* Navbar */
+/* Navbar code */
 .Navbar {
    width: 100%;
    margin: 4px 4px;
-   background-color: rgb(201, 195, 195);
    border-radius: 10px;
    font-family: 'Poppins', sans-serif;
 }
+
+#Default_color{
+   background-color: rgb(201, 195, 195);
+}
+
 
 .List_with_logo {
    display: flex;
@@ -39,7 +43,6 @@
 
 
 .menu_li {
-   background-color: rgb(201, 195, 195);
    color: rgb(34, 34, 34);
    padding: 3px;
    margin: 2px;
@@ -70,14 +73,23 @@
 .Nav_color {
    width: 20px;
    height: 20px;
-   background-color: aqua;
    border-radius: 50%;
    border: none;
    margin: 2px;
 }
 
+#color_White{
+   background-color: white;
+}
+#color_Black{
+   background-color: black;
+}
+#color_Gray{
+   background-color: gray;
+}
+
 .Color_Changer {
-   background-color: blanchedalmond;
+   background-color: rgb(152, 150, 147);
    border-radius: 10px;
    padding: 8px;
    display: flex;
@@ -100,7 +112,8 @@
 }
 
 #search {
-   padding: 8px;
+   padding: 14px;
    border: none;
    border-radius: 5px;
+   width: 320px;
 }
