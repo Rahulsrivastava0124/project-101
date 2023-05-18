@@ -117,3 +117,7 @@
    border-radius: 5px;
    width: 320px;
 }
+#search:focus-visible{
+  outline-style:solid;
+  outline-color: rgb(232, 128, 80);
+}
