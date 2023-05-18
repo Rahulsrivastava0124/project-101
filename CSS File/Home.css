@@ -116,6 +116,7 @@
    border: none;
    border-radius: 5px;
    width: 320px;
+   background-color: beige;
 }
 #search:focus-visible{
   outline-style:solid;

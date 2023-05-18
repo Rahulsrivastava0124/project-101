@@ -9,5 +9,10 @@ function Change_Nav_Color(Clickid) {
     for (let index = 0; index < length; index++) {
         document.getElementsByClassName("menu_link")[index].style.color="white";
     }
+   }else{
+    let length=document.getElementsByClassName("menu_link").length;
+    for (let index = 0; index < length; index++) {
+        document.getElementsByClassName("menu_link")[index].style.color="black";
+    }
    }
 }
